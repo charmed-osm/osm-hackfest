@@ -1,0 +1,13 @@
+# Copyright 2020 Ubuntu
+# See LICENSE file for licensing details.
+name: prometheus
+description: |
+  Basic prometheus charm
+summary: |
+  This charm is very basic
+series: [focal]
+provides:
+  prometheus:
+    interface: grafana-source
+
+
